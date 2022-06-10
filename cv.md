@@ -32,3 +32,16 @@ if (num1 > num2) {
 }
 ```
 
+## **Work Experience**
+******
+I have some projects where I try new skills.
+
+## **Education and Courses**
+******
+    1. Kostroma State University
+    2. FreeCodeCamp Responsive Web Design
+    3. Video on YouTube
+
+## **Language**
+******
+English Level - A2/B1
