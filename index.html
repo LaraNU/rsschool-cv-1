@@ -5,9 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="icon" href="./assets/logo/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
-    <h1>Larisa Novozhilova</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/avatar.jpg" alt="avatar">
+                <div class="section-profile-title">
+                    <h1 class="section-title">Larisa Novozhilova</h1>
+                    <h3 class="section-name">Junior Front-end Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">Location: Yaroslavl, Russia</li>
+                    <li class="section-item">Email: kara4516@gmail.com</li>
+                    <li class="section-item">Github: LaraNU</li>
+                    <li class="section-item">Discord: LaraKit#8143</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I'm learning on frontend developer about 6 month. I want to be great professional in programming. I always improve my skills in English, HTML, CSS and JS.  I try to do a lot of practice because it will be my future experience.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML/CSS</li>
+                    <li class="section-item">JavaScript</li>
+                    <li class="section-item">Vue.js (Basic)</li>
+                    <li class="section-item">Node.js (Basic)</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+                        const num1 = -10
+                        const num2 = 5
+
+                        if (num1 > num2) {
+                            console.log('true')
+                        } else {
+                            console.log('false')
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">FreeCodeCamp: Responsive Web Design</li>
+                    <li class="section-item">Udemy: WEB-development 2022</li>
+                    <li class="section-item">Khan Academy: 
+                        Computer programming</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item"><a href="https://github.com/LaraNU/rsschool-cv.git" target="_blank" class="link">CV project</a></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Kostroma State University</p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">Languages</h2>
+                <p>English - B2. The results of my online testing from <a href="https://www.efset.org/cert/pEra9L" target="_blank" class="link">EFSET</a></p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://github.com/LaraNU" target="_blank" class="nav-link">GitHub</a>
+            <p>&copy;2022</p>
+            <a href="https://rs.school/js/" class="logo-rsschool"></a>
+        </div>
+    </footer>
 </body>
 </html>
