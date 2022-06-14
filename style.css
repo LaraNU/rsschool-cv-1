@@ -22,7 +22,6 @@ body {
 
 .header {
     background-color: #5dbde3;
-    height: 70px;
 }
 
 .main {
@@ -37,6 +36,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    min-height: 50px;
 }
 
 .nav-list {
@@ -56,4 +56,9 @@ body {
 
 .nav-link:hover {
     color: #02326c;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
 }
