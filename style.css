@@ -24,21 +24,6 @@ body {
     background-color: #5dbde3;
 }
 
-.main {
-    background-color: #c9cfd2;
-}
-
-.footer {
-    background-color: #03719e;
-    height: 70px;
-}
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    min-height: 50px;
-}
-
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -58,7 +43,31 @@ body {
     color: #02326c;
 }
 
+.main {
+    background-color: #c9cfd2;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
 img {
     border-radius: 50%;
     width: 200px;
+}
+
+.footer {
+    background-color: #03719e;
+    height: 70px;
 }
