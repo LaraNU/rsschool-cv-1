@@ -144,7 +144,7 @@ html, body {
     text-transform: uppercase;
 }
 .contact__city {
-    background: url(./asset/icons/city.png) no-repeat;
+    background: url(./assets/icons/city.png) no-repeat;
     padding: 0 0 0 30px;
     font-weight: 300;
     font-size: 14px;
@@ -157,7 +157,7 @@ html, body {
     align-items: center;
 }
 .contact__phone {
-    background: url(./asset/icons/local_phone.png) no-repeat;
+    background: url(./assets/icons/local_phone.png) no-repeat;
     padding: 0 0 0 30px;
     font-weight: 300;
     font-size: 14px;
@@ -170,7 +170,7 @@ html, body {
     align-items: center;
 }
 .contact__mail {
-    background: url(./asset/icons/local_post_office.png) no-repeat;
+    background: url(./assets/icons/local_post_office.png) no-repeat;
     padding: 0 0 0 30px;
     font-weight: 300;
     font-size: 14px;
@@ -282,6 +282,20 @@ html, body {
 .footer {
     height: 60px;
     background: #D9D9D9;
+}
+.footer__container {
+}
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+.footer__link-git {
+}
+.footer__data {
+}
+.footer__link-rsschool {
 }
 /* ---------------- MEDIA --------------- */
 @media (max-width: 479px) {
