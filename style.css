@@ -62,12 +62,14 @@ html, body {
 .header__link {
     color: inherit;
     cursor: pointer;
+    transition: 0.5s;
 }
 .header__link:hover {
     color: white;
-    border-bottom: 1px solid #000000;
+    /* border-bottom: 1px solid #ffffff; */
     cursor: pointer;
     font-size: 16px;
+    transition: 0.5s;
 }
 
 /* ---------------- MAIN --------------- */
@@ -117,6 +119,10 @@ html, body {
 .main__about {
 }
 .about {
+}
+.about__column-one {
+}
+.about__column-two {
 }
 .about__row {
     display: flex;
@@ -184,7 +190,6 @@ html, body {
 }
 /* ------------ */
 .profile {
-    flex: 0 1 600px;
 }
 .profile__title {
     margin-bottom: 28px;
@@ -298,7 +303,7 @@ html, body {
 .footer__link-rsschool {
 }
 /* ---------------- MEDIA --------------- */
-@media (max-width: 479px) {
+@media (max-width: 380px) {
     .header__items {
         justify-content: flex-end;
         column-gap: 20px;
@@ -311,6 +316,7 @@ html, body {
         margin-top: 33px;
     }
     .about__row {
-        justify-content: center;
+        justify-content: flex-start;
+        column-gap: 20px;
     }
 }
