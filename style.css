@@ -303,14 +303,38 @@ html, body {
 .footer__link-rsschool {
 }
 /* ---------------- MEDIA --------------- */
-@media (max-width: 380px) {
+@media (max-width: 576px) {
+    .main__body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main__title {
+        font-size: 20px;
+    }
+    .main__title_bold {
+        font-size: 35px;
+    }
+    .main__image {
+        margin-top: 33px;
+    }
+    .about__row {
+        justify-content: flex-start;
+        column-gap: 20px;
+    }
+}
+@media (max-width: 420px) {
     .header__items {
-        justify-content: flex-end;
         column-gap: 20px;
     }
     .main__body {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .main__title {
+        font-size: 20px;
+    }
+    .main__title_bold {
+        font-size: 35px;
     }
     .main__image {
         margin-top: 33px;
