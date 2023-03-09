@@ -1,0 +1,346 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,ol,li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html, body {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    color: #000000;
+	font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+._container {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0 7px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background: #D9D9D9;
+}
+.header__container {
+}
+.header__menu {
+}
+.header__items {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header__item {
+}
+.header__link {
+    color: inherit;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header__link:hover {
+    color: white;
+    /* border-bottom: 1px solid #ffffff; */
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+/* ---------------- MAIN --------------- */
+.main {
+    flex: 1 1 auto;
+}
+.main__container {
+}
+.main__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 14px 0 66px;
+}
+.main__information {
+}
+.main__title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
+.main__title_bold {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.main__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: end;
+}
+.main__image {
+}
+.main__image_img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* ---------------- */
+.main__about {
+}
+.about {
+}
+.about__column-one {
+}
+.about__column-two {
+}
+.about__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.about__column {
+    margin-bottom: 48px;
+}
+.about__item {
+}
+/* ------------- */
+.contact {
+}
+.contact__title {
+    margin-bottom: 28px;
+    padding-left: 9px;
+}
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.contact__city {
+    background: url(./assets/icons/city.png) no-repeat;
+    padding: 0 0 0 30px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #676767;
+    height: 18px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.contact__phone {
+    background: url(./assets/icons/local_phone.png) no-repeat;
+    padding: 0 0 0 30px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #676767;
+    height: 18px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.contact__mail {
+    background: url(./assets/icons/local_post_office.png) no-repeat;
+    padding: 0 0 0 30px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #676767;
+    height: 18px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+/* ------------ */
+.profile {
+}
+.profile__title {
+    margin-bottom: 28px;
+}
+.profile__information {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.05em;
+    color: #676767;
+}
+/* ------------ */
+.skills {
+}
+.skills__title {
+    margin: 0 0 31px 0;
+}
+.skills__list {
+}
+.skills__item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #676767;
+    list-style: inside;
+}
+/* ------------ */
+.language {
+}
+.language__title {
+    margin: 0 0 31px 0;
+}
+.language__list {
+}
+.language__item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #676767;
+    list-style: inside;
+}
+/* ------------ */
+.experience__title {
+    color: #000000;
+    margin: 0 0 31px 0;
+}
+.experience__item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #676767;
+    list-style: inside;
+}
+.experience__item .experience__item-link {
+    color: inherit;
+}
+.experience__list {
+}
+/* ------------ */
+.code {
+}
+.code__item {
+}
+.code__title {
+    margin: 0 0 22px 0;
+}
+.title {
+}
+.pre {
+    color: #676767;
+}
+/* ------------ */
+.education {
+}
+.about__item {
+}
+.education__title {
+    margin: 0 0 31px 0;
+}
+.education__list {
+}
+.education__item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #676767;
+    list-style: inside;
+}
+
+/* ---------------- FOOTER --------------- */
+.footer {
+    height: 60px;
+    background: #D9D9D9;
+}
+.footer__container {
+}
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+.footer__link-git {
+}
+.footer__data {
+}
+.footer__link-rsschool {
+}
+/* ---------------- MEDIA --------------- */
+@media (max-width: 576px) {
+    .main__body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main__title {
+        font-size: 20px;
+    }
+    .main__title_bold {
+        font-size: 35px;
+    }
+    .main__image {
+        margin-top: 33px;
+    }
+    .about__row {
+        justify-content: flex-start;
+        column-gap: 20px;
+    }
+}
+@media (max-width: 420px) {
+    .header__items {
+        column-gap: 20px;
+    }
+    .main__body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main__title {
+        font-size: 20px;
+    }
+    .main__title_bold {
+        font-size: 35px;
+    }
+    .main__image {
+        margin-top: 33px;
+    }
+    .about__row {
+        justify-content: flex-start;
+        column-gap: 20px;
+    }
+}
